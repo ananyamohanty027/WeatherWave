@@ -1,0 +1,128 @@
+body {
+    background: linear-gradient(135deg, #0a2e4b, #093a63);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+    overflow: hidden;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+video#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1; /* Send it to the background */
+    object-fit: cover; /* Make sure the video covers the background */
+}
+
+.card {
+    position: relative;
+    z-index: 10; /* Ensure the card stays above the video */
+    width: 90%;
+    max-width: 470px;
+    background: rgba(255, 255, 255, 0.2); /* More transparency (20%) */
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    backdrop-filter: blur(10px); /* Adds a blur effect for the background */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37); /* Shadow for depth */
+    border: 1px solid rgba(255, 255, 255, 0.18); /* Border for frosted glass look */
+    overflow: hidden; /* Ensure content doesn't overflow */
+    
+}
+/* .card {
+    width: 100%;
+    max-width: 500px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    padding: 40px 30px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+} */
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.search input {
+    flex: 1;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+    margin-right: 10px;
+    outline: none;
+}
+
+.search button {
+    /* background-color: #42b7ff; */
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search button img {
+    width: 20px;
+}
+.mic-btn img{
+    width: 1px;
+}
+
+.weather h1 {
+    font-size: 72px;
+    margin: 10px 0;
+}
+
+.weather h2 {
+    font-size: 40px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.details .col {
+    display: flex;
+    align-items: center;
+}
+
+.details .col img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity, .wind {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.error {
+    display: none;
+    color: red;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+}
