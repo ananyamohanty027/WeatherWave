@@ -4,7 +4,11 @@ Here's a professional README content for your **Weather Wave** app:
 
 # Weather Wave
 
-![Weather Wave Logo](https://ananyamohanty027.github.io/WeatherWave/)  <!-- Update with your logo path -->
+![Weather Wave Logo](
+
+https://github.com/user-attachments/assets/79c70553-2fbf-430a-afce-63f1052ffd5d
+
+)  <!-- Update with your logo path -->
 
 ## Live Demo
 Experience Weather Wave live at: [Weather Wave](https://ananyamohanty027.github.io/WeatherWave/)
