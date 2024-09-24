@@ -38,7 +38,7 @@ async function checkWeather(city) {
             videoSource = "drizzle.mp4";  // Set the background video for drizzle
         } else if (weatherCondition === "Mist") {
             weatherIcon.src = "mist.png";
-            videoSource = "mist.mp4";  // Set the background video for mist
+            videoSource = "misty.mp4";  // Set the background video for mist
         }
 
         // Update video source
