@@ -5,8 +5,9 @@ Here's a professional README content for your **Weather Wave** app:
 # Weather Wave
 
 ![Weather Wave Logo](
+![Weather Wave](https://github.com/user-attachments/assets/e9a70b67-eb1b-4099-92a0-67f5991de7fe)
 
-https://github.com/user-attachments/assets/79c70553-2fbf-430a-afce-63f1052ffd5d
+
 
 )  <!-- Update with your logo path -->
 
